@@ -1,0 +1,989 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+                              ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o (__errno)
+c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o) (_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+                              ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
+                              ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_ioport_ctrl       0x8               ./rzv_gen/common_data.o
+g_timer2_ctrl       0x1c              ./rzv_gen/hal_data.o
+gp_renesas_isr_context
+                    0x780             ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+g_protect_pfswe_counter
+                    0x4               ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/hal_entry.o
+ .data          0x00000000        0x0 ./src/hal_entry.o
+ .bss           0x00000000        0x0 ./src/hal_entry.o
+ .text          0x00000000        0x0 ./rzv_gen/common_data.o
+ .data          0x00000000        0x0 ./rzv_gen/common_data.o
+ .bss           0x00000000        0x0 ./rzv_gen/common_data.o
+ .text.g_common_init
+                0x00000000        0x2 ./rzv_gen/common_data.o
+ .rodata.g_ioport
+                0x00000000        0xc ./rzv_gen/common_data.o
+ .text          0x00000000        0x0 ./rzv_gen/hal_data.o
+ .data          0x00000000        0x0 ./rzv_gen/hal_data.o
+ .bss           0x00000000        0x0 ./rzv_gen/hal_data.o
+ .text.g_hal_init
+                0x00000000        0x8 ./rzv_gen/hal_data.o
+ .text          0x00000000        0x0 ./rzv_gen/main.o
+ .data          0x00000000        0x0 ./rzv_gen/main.o
+ .bss           0x00000000        0x0 ./rzv_gen/main.o
+ .text          0x00000000        0x0 ./rzv_gen/vector_data.o
+ .data          0x00000000        0x0 ./rzv_gen/vector_data.o
+ .bss           0x00000000        0x0 ./rzv_gen/vector_data.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_Close
+                0x00000000        0x8 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PinRead
+                0x00000000       0x1c ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PortRead
+                0x00000000       0x10 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_SDVoltageModeCfg
+                0x00000000       0x2c ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_QSPIVoltageModeCfg
+                0x00000000       0x10 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_EthernetVoltageModeCfg
+                0x00000000       0x28 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PortEventInputRead
+                0x00000000        0x4 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PinEventInputRead
+                0x00000000        0x4 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PortEventOutputWrite
+                0x00000000        0x4 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PinEventOutputWrite
+                0x00000000        0x4 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_VersionGet
+                0x00000000       0x10 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PortWrite
+                0x00000000       0x20 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PinWrite
+                0x00000000       0x24 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_EthernetModeCfg
+                0x00000000       0x18 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PortDirectionSet
+                0x00000000       0x1c ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PinsCfg
+                0x00000000        0xc ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_PinCfg
+                0x00000000       0x6c ./rzv/fsp/src/r_ioport/r_ioport.o
+ .rodata.g_ioport_on_ioport
+                0x00000000       0x48 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .text.R_BSP_VersionGet
+                0x00000000       0x10 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .text.R_FSP_VersionGet
+                0x00000000       0x10 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .text.bsp_init_internal
+                0x00000000        0x2 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .rodata.g_bsp_version
+                0x00000000        0x4 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .text.bsp_prv_software_delay_loop
+                0x00000000        0xa ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .text.R_BSP_SoftwareDelay
+                0x00000000       0x84 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_info    0x00000000      0xb47 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_abbrev  0x00000000      0x294 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_loc     0x00000000      0x104 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_aranges
+                0x00000000       0x28 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_ranges  0x00000000       0x18 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_line    0x00000000      0x3ae ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_str     0x00000000      0x7c5 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .comment       0x00000000       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .debug_frame   0x00000000       0x3c ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .ARM.attributes
+                0x00000000       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .text.R_BSP_GroupIrqWrite
+                0x00000000        0x4 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_info    0x00000000     0x1041 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_abbrev  0x00000000      0x250 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_loc     0x00000000       0x25 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_aranges
+                0x00000000       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_ranges  0x00000000       0x10 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_line    0x00000000      0x331 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_str     0x00000000     0x1b4f ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .comment       0x00000000       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .debug_frame   0x00000000       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .ARM.attributes
+                0x00000000       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .debug_info    0x00000000      0xa1d ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .debug_abbrev  0x00000000      0x1d9 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .debug_aranges
+                0x00000000       0x18 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .debug_line    0x00000000      0x2d5 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .debug_str     0x00000000      0x6c0 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .comment       0x00000000       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .ARM.attributes
+                0x00000000       0x36 ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .text._sbrk    0x00000000       0x44 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .bss.current_heap_end.26609
+                0x00000000        0x4 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_info    0x00000000      0xafc ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_abbrev  0x00000000      0x26c ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_loc     0x00000000       0xf5 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_aranges
+                0x00000000       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_ranges  0x00000000       0x10 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_line    0x00000000      0x382 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_str     0x00000000      0x74d ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .comment       0x00000000       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_frame   0x00000000       0x28 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .ARM.attributes
+                0x00000000       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .rodata.gp_start_of_nonsecure_vector_table
+                0x00000000        0x4 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .text.R_BSP_WarmStart
+                0x00000000        0x2 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .text          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .data          0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .bss           0x00000000        0x0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .text          0x00000000        0x0 ./rzv/board/rzv2l_smarc/board_init.o
+ .data          0x00000000        0x0 ./rzv/board/rzv2l_smarc/board_init.o
+ .bss           0x00000000        0x0 ./rzv/board/rzv2l_smarc/board_init.o
+ .text          0x00000000        0x0 ./rzv/board/rzv2l_smarc/board_leds.o
+ .data          0x00000000        0x0 ./rzv/board/rzv2l_smarc/board_leds.o
+ .bss           0x00000000        0x0 ./rzv/board/rzv2l_smarc/board_leds.o
+ .text          0x00000000        0x0 ./rzv/board/rzv2l_smarc/pin_data.o
+ .data          0x00000000        0x0 ./rzv/board/rzv2l_smarc/pin_data.o
+ .bss           0x00000000        0x0 ./rzv/board/rzv2l_smarc/pin_data.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x32 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM_S            0x72eff800         0x00000800         xrw
+RAM_N            0x60110000         0x02def440         xrw
+CODE_S           0x72eff440         0x000003c0         xr
+CODE_N           0x60010000         0x00100000         xr
+VECTTBL_S        0x1001ff80         0x00000080         xr
+VECTTBL_N        0x00010000         0x00000800         xr
+OPENAMP_RSCTBL   0x62f00000         0x00001000         rw
+MHU_SHMEM        0x62f01000         0x00001000         rw
+OPENAMP_VRING    0x63000000         0x01000000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD ./src/hal_entry.o
+LOAD ./rzv_gen/common_data.o
+LOAD ./rzv_gen/hal_data.o
+LOAD ./rzv_gen/main.o
+LOAD ./rzv_gen/vector_data.o
+LOAD ./rzv/fsp/src/r_ioport/r_ioport.o
+LOAD ./rzv/fsp/src/r_gtm/r_gtm.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_delay.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_group_irq.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_guard.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_sbrk.o
+LOAD ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+LOAD ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+LOAD ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+LOAD ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+LOAD ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+LOAD ./rzv/board/rzv2l_smarc/board_init.o
+LOAD ./rzv/board/rzv2l_smarc/board_leds.o
+LOAD ./rzv/board/rzv2l_smarc/pin_data.o
+END GROUP
+START GROUP
+END GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libstdc++_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\librdimon_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\librdimon_nano.a
+END GROUP
+                0x00010000                VECTBL_N_START = 0x10000
+                0x00000800                VECTBL_N_LENGTH = 0x800
+                0x1001ff80                VECTBL_S_START = 0x1001ff80
+                0x00000080                VECTBL_S_LENGTH = 0x80
+                0x60010000                CODE_N_START = 0x60010000
+                0x00100000                CODE_N_LENGTH = 0x100000
+                0x60110000                RAM_N_START = 0x60110000
+                0x02def440                RAM_N_LENGTH = 0x2def440
+                0x72eff440                CODE_S_START = 0x72eff440
+                0x000003c0                CODE_S_LENGTH = 0x3c0
+                0x72eff800                RAM_S_START = 0x72eff800
+                0x00000800                RAM_S_LENGTH = 0x800
+                0x60010000                DDR_START = 0x60010000
+                0x03ff0000                DDR_LENGTH = 0x3ff0000
+                0x62f00000                OPENAMP_RSCTBL_START = 0x62f00000
+                0x00001000                OPENAMP_RSCTBL_LENGTH = 0x1000
+                0x62f01000                MHU_SHMEM_START = 0x62f01000
+                0x00001000                MHU_SHMEM_LENGTH = 0x1000
+                0x63000000                OPENAMP_VRING_START = 0x63000000
+                0x01000000                OPENAMP_VRING_LENGTH = 0x1000000
+                0x62f00000                OPENAMP_RSCTBL_START = DEFINED (OPENAMP_RSCTBL_START)?OPENAMP_RSCTBL_START:0x0
+                0x00001000                OPENAMP_RSCTBL_LENGTH = DEFINED (OPENAMP_RSCTBL_LENGTH)?OPENAMP_RSCTBL_LENGTH:0x0
+                0x62f01000                MHU_SHMEM_START = DEFINED (MHU_SHMEM_START)?MHU_SHMEM_START:0x0
+                0x00001000                MHU_SHMEM_LENGTH = DEFINED (MHU_SHMEM_LENGTH)?MHU_SHMEM_LENGTH:0x0
+                0x63000000                OPENAMP_VRING_START = DEFINED (OPENAMP_VRING_START)?OPENAMP_VRING_START:0x0
+                0x01000000                OPENAMP_VRING_LENGTH = DEFINED (OPENAMP_VRING_LENGTH)?OPENAMP_VRING_LENGTH:0x0
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v8-m.main/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libm.a
+LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libnosys.a
+END GROUP
+                0x1001ff80                __tz_VECTBL_S = ABSOLUTE (VECTBL_S_START)
+                0x1001ff80                . = __tz_VECTBL_S
+
+.secure_vector  0x1001ff80       0x40
+ *(.fixed_secure_vectors*)
+ .fixed_secure_vectors
+                0x1001ff80       0x40 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                0x1001ff80                __Secure_Vectors
+                0x72eff440                __tz_CODE_S = ABSOLUTE (CODE_S_START)
+                0x72eff440                . = __tz_CODE_S
+
+.secure_code    0x72eff440      0x190
+ *\bsp_security.o(.text)
+ *\bsp_security.o(.text.*)
+ .text.R_BSP_NonSecureEnter
+                0x72eff440       0x28 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+                0x72eff440                R_BSP_NonSecureEnter
+ .text.R_BSP_PinCfgSecurityInit
+                0x72eff468        0x2 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+                0x72eff468                R_BSP_PinCfgSecurityInit
+ *fill*         0x72eff46a        0x2 
+ .text.R_BSP_SecurityInit
+                0x72eff46c       0x40 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+                0x72eff46c                R_BSP_SecurityInit
+ *\bsp_security.o(.rodata)
+ *\bsp_security.o(.rodata.*)
+ *\bsp_irqs.o(.text)
+ *\bsp_irqs.o(.text.*)
+ .text.bsp_irq_cfg_s
+                0x72eff4ac       0x8c ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+                0x72eff4ac                bsp_irq_cfg_s
+ *\bsp_irqs.o(.rodata)
+ *\bsp_irqs.o(.rodata.*)
+ *\startups.o(.text)
+ *\startups.o(.text.*)
+ .text.Default_Handler_S
+                0x72eff538        0x4 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                0x72eff538                PendSV_Handler_S
+                0x72eff538                MemManage_Handler_S
+                0x72eff538                Default_Handler_S
+                0x72eff538                SysTick_Handler_S
+                0x72eff538                HardFault_Handler_S
+                0x72eff538                DebugMon_Handler_S
+                0x72eff538                SVC_Handler_S
+                0x72eff538                BusFault_Handler_S
+                0x72eff538                UsageFault_Handler_S
+ .text.NMI_Handler_S
+                0x72eff53c        0x4 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                0x72eff53c                NMI_Handler_S
+ .text.SecureFault_Handler
+                0x72eff540        0x4 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                0x72eff540                SecureFault_Handler
+ .text.Reset_Handler_S
+                0x72eff544        0x8 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                0x72eff544                Reset_Handler_S
+ *\startups.o(.rodata)
+ *\startups.o(.rodata.*)
+ *\systems.o(.text)
+ *\systems.o(.text.*)
+ .text.SystemInit_S
+                0x72eff54c       0x38 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+                0x72eff54c                SystemInit_S
+ .text.Warm_Reset_S
+                0x72eff584       0x38 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+                0x72eff584                Warm_Reset_S
+ *fill*         0x72eff5bc        0x4 
+ .text.Warm_Reset_S.__stub
+                0x72eff5c0       0x10 linker stubs
+ *\systems.o(.rodata)
+ *\systems.o(.rodata.*)
+                0x72eff5d0                __CODE_S_End = .
+                0x72eff800                __tz_RAM_S = ABSOLUTE (RAM_S_START)
+                0x72eff800                . = __tz_RAM_S
+
+.s_stack_dummy  0x72eff800      0x200
+                0x72eff800                __S_StackLimit = .
+ *(.s_stack)
+ .s_stack       0x72eff800      0x200 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                0x72effa00                __S_StackTop = .
+                0x00010000                __tz_VECTBL_N = ABSOLUTE (VECTBL_N_START)
+                0x00010000                . = __tz_VECTBL_N
+
+.non_secure_vector
+                0x00010000      0x7c0
+ *(.fixed_vectors*)
+ .fixed_vectors
+                0x00010000       0x40 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+                0x00010000                __Vectors
+ *(.application_vectors*)
+ .application_vectors
+                0x00010040      0x780 ./rzv_gen/vector_data.o
+                0x00010040                g_vector_table
+                0x000107c0                __Vectors_End = .
+                0x000007c0                __Vectors_Size = (__Vectors_End - __Vectors)
+                0x60010000                __tz_CODE_N = ABSOLUTE (CODE_N_START)
+                0x60010000                . = __tz_CODE_N
+
+.non_secure_code
+                0x60010000      0x9dc
+ *(.text*)
+ .text.timer_isr
+                0x60010000       0x80 ./src/hal_entry.o
+ .text.hal_entry
+                0x60010080       0x48 ./src/hal_entry.o
+                0x60010080                hal_entry
+ .text.R_BSP_WarmStart
+                0x600100c8       0x1c ./src/hal_entry.o
+                0x600100c8                R_BSP_WarmStart
+ .text.main     0x600100e4        0xa ./rzv_gen/main.o
+                0x600100e4                main
+ .text.r_ioport_make_port_pin_num
+                0x600100ee        0xa ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_regwrite_8
+                0x600100f8       0x1e ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_regwrite_16
+                0x60010116       0x20 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_regwrite_32
+                0x60010136       0x1c ./rzv/fsp/src/r_ioport/r_ioport.o
+ *fill*         0x60010152        0x2 
+ .text.r_ioport_dedicated_port_cfg
+                0x60010154       0xcc ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_peri_mode_pin_config
+                0x60010220      0x114 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_port_mode_pin_config
+                0x60010334      0x158 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_pfs_write
+                0x6001048c       0x20 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.r_ioport_pins_config
+                0x600104ac       0x88 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .text.R_IOPORT_Open
+                0x60010534       0x14 ./rzv/fsp/src/r_ioport/r_ioport.o
+                0x60010534                R_IOPORT_Open
+ .text.R_GTM_Reset
+                0x60010548        0x4 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010548                R_GTM_Reset
+ .text.R_GTM_Enable
+                0x6001054c        0x4 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x6001054c                R_GTM_Enable
+ .text.R_GTM_Disable
+                0x60010550        0x4 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010550                R_GTM_Disable
+ .text.R_GTM_DutyCycleSet
+                0x60010554        0x4 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010554                R_GTM_DutyCycleSet
+ .text.R_GTM_CallbackSet
+                0x60010558        0xa ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010558                R_GTM_CallbackSet
+ *fill*         0x60010562        0x2 
+ .text.R_GTM_VersionGet
+                0x60010564       0x10 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010564                R_GTM_VersionGet
+ .text.r_gtm_common_preamble
+                0x60010574        0x4 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .text.R_GTM_Start
+                0x60010578       0x12 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010578                R_GTM_Start
+ .text.R_GTM_Stop
+                0x6001058a       0x12 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x6001058a                R_GTM_Stop
+ .text.R_GTM_StatusGet
+                0x6001059c       0x1e ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x6001059c                R_GTM_StatusGet
+ *fill*         0x600105ba        0x2 
+ .text.R_GTM_Close
+                0x600105bc       0x54 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x600105bc                R_GTM_Close
+ .text.r_gtm_period_register_set
+                0x60010610        0x8 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .text.R_GTM_Open
+                0x60010618       0xe0 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010618                R_GTM_Open
+ .text.R_GTM_PeriodSet
+                0x600106f8       0x1c ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x600106f8                R_GTM_PeriodSet
+ .text.r_gtm_clock_frequency_get
+                0x60010714        0xa ./rzv/fsp/src/r_gtm/r_gtm.o
+ .text.R_GTM_InfoGet
+                0x6001071e       0x2a ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x6001071e                R_GTM_InfoGet
+ .text.gtm_int_isr
+                0x60010748       0x5c ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x60010748                gtm_int_isr
+ .text.SystemCoreClockUpdate
+                0x600107a4       0x14 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+                0x600107a4                SystemCoreClockUpdate
+ .text.bsp_clock_freq_var_init
+                0x600107b8       0x8c ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+                0x600107b8                bsp_clock_freq_var_init
+ .text.bsp_clock_init
+                0x60010844        0x8 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+                0x60010844                bsp_clock_init
+ .text.R_FSP_SystemClockHzGet
+                0x6001084c        0xc ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+                0x6001084c                R_FSP_SystemClockHzGet
+ .text.bsp_irq_cfg
+                0x60010858        0x4 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+                0x60010858                bsp_irq_cfg
+ .text.Default_Handler
+                0x6001085c        0x4 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+                0x6001085c                MemManage_Handler_NS
+                0x6001085c                BusFault_Handler_NS
+                0x6001085c                Default_Handler
+                0x6001085c                UsageFault_Handler_NS
+                0x6001085c                PendSV_Handler_NS
+                0x6001085c                SVC_Handler_NS
+                0x6001085c                DebugMon_Handler_NS
+                0x6001085c                HardFault_Handler_NS
+                0x6001085c                SysTick_Handler_NS
+ .text.NMI_Handler_NS
+                0x60010860        0x4 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+                0x60010860                NMI_Handler_NS
+ .text.Reset_Handler_NS
+                0x60010864        0xc ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+                0x60010864                Reset_Handler_NS
+ .text.SystemInit
+                0x60010870       0x78 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+                0x60010870                SystemInit
+ .text.bsp_init
+                0x600108e8        0x2 ./rzv/board/rzv2l_smarc/board_init.o
+                0x600108e8                bsp_init
+ .text.memcpy   0x600108ea       0x1a c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+                0x600108ea                memcpy
+ .text.memset   0x60010904       0x10 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
+                0x60010904                memset
+ *(.version)
+ .version       0x60010914       0x48 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(crtend.o * crtend?.o *) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(crtend.o * crtend?.o *) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.g_timer2
+                0x6001095c        0xc ./rzv_gen/hal_data.o
+                0x6001095c                g_timer2
+ .rodata.g_timer2_cfg
+                0x60010968       0x20 ./rzv_gen/hal_data.o
+                0x60010968                g_timer2_cfg
+ .rodata.g_timer2_extend
+                0x60010988        0x2 ./rzv_gen/hal_data.o
+                0x60010988                g_timer2_extend
+ *fill*         0x6001098a        0x2 
+ .rodata.g_timer_on_gtm
+                0x6001098c       0x34 ./rzv/fsp/src/r_gtm/r_gtm.o
+                0x6001098c                g_timer_on_gtm
+ .rodata.s_gtm_version
+                0x600109c0        0x4 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .rodata.g_bsp_leds
+                0x600109c4        0x8 ./rzv/board/rzv2l_smarc/board_leds.o
+                0x600109c4                g_bsp_leds
+ .rodata.g_bsp_prv_leds
+                0x600109cc        0x8 ./rzv/board/rzv2l_smarc/board_leds.o
+ .rodata.g_bsp_pin_cfg
+                0x600109d4        0x8 ./rzv/board/rzv2l_smarc/pin_data.o
+                0x600109d4                g_bsp_pin_cfg
+ .rodata.g_bsp_pin_cfg_data
+                0x600109dc        0x0 ./rzv/board/rzv2l_smarc/pin_data.o
+                0x600109dc                g_bsp_pin_cfg_data
+ *(.eh_frame*)
+
+.glue_7         0x600109dc        0x0
+ .glue_7        0x600109dc        0x0 linker stubs
+
+.glue_7t        0x600109dc        0x0
+ .glue_7t       0x600109dc        0x0 linker stubs
+
+.vfp11_veneer   0x600109dc        0x0
+ .vfp11_veneer  0x600109dc        0x0 linker stubs
+
+.v4_bx          0x600109dc        0x0
+ .v4_bx         0x600109dc        0x0 linker stubs
+
+.iplt           0x600109dc        0x0
+ .iplt          0x600109dc        0x0 ./src/hal_entry.o
+
+.rel.dyn        0x600109dc        0x0
+ .rel.iplt      0x600109dc        0x0 ./src/hal_entry.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x600109dc                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x600109dc                __exidx_end = .
+                0x600109dc                __etext = .
+                0x60110000                __tz_RAM_N = ABSOLUTE (RAM_N_START)
+                0x60110000                . = __tz_RAM_N
+
+.data           0x60110000       0x58 load address 0x600109dc
+                0x60110000                __data_start__ = .
+                0x60110000                . = ALIGN (0x4)
+                0x60110000                __Code_In_RAM_Start = .
+ *(.code_in_ram*)
+                0x60110000                __Code_In_RAM_End = .
+ *(vtable)
+ *(.data.*)
+ .data.g_clock_freq
+                0x60110000       0x58 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ *(.data)
+                0x60110058                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+                0x60110058                . = ALIGN (0x4)
+                0x60110058                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x60110058                PROVIDE (__init_array_end = .)
+                0x60110058                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x60110058                . = ALIGN (0x4)
+                0x60110058                __data_end__ = .
+
+.igot.plt       0x60110058        0x0 load address 0x60010a34
+ .igot.plt      0x60110058        0x0 ./src/hal_entry.o
+
+.noinit         0x60110058        0x0 load address 0x60010a34
+                0x60110058                . = ALIGN (0x4)
+                0x60110058                __noinit_start = .
+ *(.noinit*)
+                0x60110058                . = ALIGN (0x8)
+ *(.heap.*)
+                0x60110058                __noinit_end = .
+
+.bss            0x60110058      0x7b0 load address 0x60010a34
+                0x60110058                . = ALIGN (0x4)
+                0x60110058                __bss_start__ = .
+ *(.bss*)
+ .bss.pin_level.27163
+                0x60110058        0x1 ./src/hal_entry.o
+ *fill*         0x60110059        0x3 
+ .bss.SystemCoreClock
+                0x6011005c        0x4 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+                0x6011005c                SystemCoreClock
+ *(COMMON)
+ COMMON         0x60110060        0x8 ./rzv_gen/common_data.o
+                0x60110060                g_ioport_ctrl
+ COMMON         0x60110068       0x1c ./rzv_gen/hal_data.o
+                0x60110068                g_timer2_ctrl
+ COMMON         0x60110084        0x4 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+                0x60110084                g_protect_pfswe_counter
+ COMMON         0x60110088      0x780 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+                0x60110088                gp_renesas_isr_context
+                0x60110808                . = ALIGN (0x4)
+                0x60110808                __bss_end__ = .
+
+.heap           0x60110808        0x0 load address 0x60010a34
+                0x60110808                . = ALIGN (0x8)
+                0x60110808                __HeapBase = .
+ *(.heap)
+                0x60110808                __HeapLimit = .
+
+.stack_dummy    0x60110808      0x200 load address 0x60010a34
+                0x60110808                . = ALIGN (0x8)
+                0x60110808                __StackLimit = .
+ *(.stack)
+ .stack         0x60110808      0x200 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+                0x60110a08                __StackTop = .
+ *(.stack*)
+                0x60110a08                __StackTopAll = .
+                [!provide]                PROVIDE (__stack = __StackTopAll)
+                0x60110a08                __RAM_segment_used_end__ = ALIGN (__StackTopAll, 0x4)
+                [!provide]                PROVIDE (__tz_RAM_C = __RAM_segment_used_end__)
+                0x62f00000                __tz_OPENAMP_RSCTBL = ABSOLUTE (OPENAMP_RSCTBL_START)
+                0x62f00000                . = __tz_OPENAMP_RSCTBL
+
+.resource_table
+                0x62f00000        0x0
+                [!provide]                PROVIDE (__rsctbl_start = .)
+ *(.resource_table)
+                [!provide]                PROVIDE (__rsctbl_end = .)
+                0x62f01000                __tz_MHU_SHMEM = ABSOLUTE (MHU_SHMEM_START)
+                0x62f01000                . = __tz_MHU_SHMEM
+
+.mhu_shmem      0x62f01000     0x1000
+                [!provide]                PROVIDE (__mhu_shmem_start = .)
+                0x62f02000                . = (. + MHU_SHMEM_LENGTH)
+ *fill*         0x62f01000     0x1000 
+                [!provide]                PROVIDE (__mhu_shmem_end = .)
+                0x63000000                __tz_OPENAMP_VRING = ABSOLUTE (OPENAMP_VRING_START)
+                0x63000000                . = __tz_OPENAMP_VRING
+
+.vring          0x63000000  0x1000000
+                [!provide]                PROVIDE (__vring_start = .)
+                0x64000000                . = (. + OPENAMP_VRING_LENGTH)
+ *fill*         0x63000000  0x1000000 
+                [!provide]                PROVIDE (__vring_end = .)
+OUTPUT(rzv2l_flappyai.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x69e8c
+ .debug_info    0x00000000    0x1e2b4 ./src/hal_entry.o
+ .debug_info    0x0001e2b4     0x1bf1 ./rzv_gen/common_data.o
+ .debug_info    0x0001fea5     0x2fec ./rzv_gen/hal_data.o
+ .debug_info    0x00022e91     0x2f25 ./rzv_gen/main.o
+ .debug_info    0x00025db6      0xa4d ./rzv_gen/vector_data.o
+ .debug_info    0x00026803    0x1e9f4 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_info    0x000451f7     0xd991 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_info    0x00052b88      0xb71 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_info    0x000536f9     0x1143 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_info    0x0005483c      0xa2b ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .debug_info    0x00055267      0xa45 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .debug_info    0x00055cac     0xc017 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_info    0x00061cc3      0xefc ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_info    0x00062bbf      0xae6 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .debug_info    0x000636a5      0xae3 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .debug_info    0x00064188      0xc28 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .debug_info    0x00064db0     0x271a ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .debug_info    0x000674ca      0xa46 ./rzv/board/rzv2l_smarc/board_init.o
+ .debug_info    0x00067f10      0xf9a ./rzv/board/rzv2l_smarc/board_leds.o
+ .debug_info    0x00068eaa      0xfe2 ./rzv/board/rzv2l_smarc/pin_data.o
+
+.debug_abbrev   0x00000000     0x37e7
+ .debug_abbrev  0x00000000      0x415 ./src/hal_entry.o
+ .debug_abbrev  0x00000415      0x248 ./rzv_gen/common_data.o
+ .debug_abbrev  0x0000065d      0x2a4 ./rzv_gen/hal_data.o
+ .debug_abbrev  0x00000901      0x284 ./rzv_gen/main.o
+ .debug_abbrev  0x00000b85      0x1ec ./rzv_gen/vector_data.o
+ .debug_abbrev  0x00000d71      0x4ec ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_abbrev  0x0000125d      0x60a ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_abbrev  0x00001867      0x27f ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_abbrev  0x00001ae6      0x29d ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_abbrev  0x00001d83      0x1e8 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .debug_abbrev  0x00001f6b      0x206 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .debug_abbrev  0x00002171      0x29a ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_abbrev  0x0000240b      0x2e8 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_abbrev  0x000026f3      0x258 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .debug_abbrev  0x0000294b      0x258 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .debug_abbrev  0x00002ba3      0x2f1 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .debug_abbrev  0x00002e94      0x2f9 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .debug_abbrev  0x0000318d      0x208 ./rzv/board/rzv2l_smarc/board_init.o
+ .debug_abbrev  0x00003395      0x22d ./rzv/board/rzv2l_smarc/board_leds.o
+ .debug_abbrev  0x000035c2      0x225 ./rzv/board/rzv2l_smarc/pin_data.o
+
+.debug_loc      0x00000000     0x1e4c
+ .debug_loc     0x00000000      0x172 ./src/hal_entry.o
+ .debug_loc     0x00000172     0x14ef ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_loc     0x00001661      0x6d0 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_loc     0x00001d31       0x25 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_loc     0x00001d56       0x44 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_loc     0x00001d9a       0x23 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_loc     0x00001dbd       0x57 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_loc     0x00001e14       0x38 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+
+.debug_aranges  0x00000000      0x430
+ .debug_aranges
+                0x00000000       0x30 ./src/hal_entry.o
+ .debug_aranges
+                0x00000030       0x20 ./rzv_gen/common_data.o
+ .debug_aranges
+                0x00000050       0x20 ./rzv_gen/hal_data.o
+ .debug_aranges
+                0x00000070       0x20 ./rzv_gen/main.o
+ .debug_aranges
+                0x00000090       0x18 ./rzv_gen/vector_data.o
+ .debug_aranges
+                0x000000a8       0xf0 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_aranges
+                0x00000198       0xa0 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_aranges
+                0x00000238       0x38 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_aranges
+                0x00000270       0x30 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_aranges
+                0x000002a0       0x18 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .debug_aranges
+                0x000002b8       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .debug_aranges
+                0x000002d8       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_aranges
+                0x000002f8       0x30 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_aranges
+                0x00000328       0x30 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .debug_aranges
+                0x00000358       0x38 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .debug_aranges
+                0x00000390       0x28 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .debug_aranges
+                0x000003b8       0x28 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .debug_aranges
+                0x000003e0       0x20 ./rzv/board/rzv2l_smarc/board_init.o
+ .debug_aranges
+                0x00000400       0x18 ./rzv/board/rzv2l_smarc/board_leds.o
+ .debug_aranges
+                0x00000418       0x18 ./rzv/board/rzv2l_smarc/pin_data.o
+
+.debug_ranges   0x00000000      0x350
+ .debug_ranges  0x00000000       0x20 ./src/hal_entry.o
+ .debug_ranges  0x00000020       0x10 ./rzv_gen/common_data.o
+ .debug_ranges  0x00000030       0x10 ./rzv_gen/hal_data.o
+ .debug_ranges  0x00000040       0x10 ./rzv_gen/main.o
+ .debug_ranges  0x00000050       0xe0 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_ranges  0x00000130      0x110 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_ranges  0x00000240       0x28 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_ranges  0x00000268       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_ranges  0x00000288       0x10 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .debug_ranges  0x00000298       0x10 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_ranges  0x000002a8       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_ranges  0x000002c8       0x20 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .debug_ranges  0x000002e8       0x28 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .debug_ranges  0x00000310       0x18 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .debug_ranges  0x00000328       0x18 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .debug_ranges  0x00000340       0x10 ./rzv/board/rzv2l_smarc/board_init.o
+
+.debug_line     0x00000000     0x5e17
+ .debug_line    0x00000000      0x75b ./src/hal_entry.o
+ .debug_line    0x0000075b      0x3e3 ./rzv_gen/common_data.o
+ .debug_line    0x00000b3e      0x4c9 ./rzv_gen/hal_data.o
+ .debug_line    0x00001007      0x4c4 ./rzv_gen/main.o
+ .debug_line    0x000014cb      0x303 ./rzv_gen/vector_data.o
+ .debug_line    0x000017ce      0xd28 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_line    0x000024f6      0xa1e ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_line    0x00002f14      0x41b ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_line    0x0000332f      0x38c ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_line    0x000036bb      0x2fc ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .debug_line    0x000039b7      0x315 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .debug_line    0x00003ccc      0x451 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_line    0x0000411d      0x3e7 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_line    0x00004504      0x369 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .debug_line    0x0000486d      0x382 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .debug_line    0x00004bef      0x427 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .debug_line    0x00005016      0x465 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .debug_line    0x0000547b      0x316 ./rzv/board/rzv2l_smarc/board_init.o
+ .debug_line    0x00005791      0x346 ./rzv/board/rzv2l_smarc/board_leds.o
+ .debug_line    0x00005ad7      0x340 ./rzv/board/rzv2l_smarc/pin_data.o
+
+.debug_str      0x00000000    0x14998
+ .debug_str     0x00000000     0xe005 ./src/hal_entry.o
+                               0xe119 (size before relaxing)
+ .debug_str     0x0000e005       0x27 ./rzv_gen/common_data.o
+                               0x3146 (size before relaxing)
+ .debug_str     0x0000e02c      0x11e ./rzv_gen/hal_data.o
+                               0x56c7 (size before relaxing)
+ .debug_str     0x0000e14a       0x17 ./rzv_gen/main.o
+                               0x55bc (size before relaxing)
+ .debug_str     0x0000e161       0x35 ./rzv_gen/vector_data.o
+                                0x6ce (size before relaxing)
+ .debug_str     0x0000e196     0x1294 ./rzv/fsp/src/r_ioport/r_ioport.o
+                               0xce17 (size before relaxing)
+ .debug_str     0x0000f42a     0x4075 ./rzv/fsp/src/r_gtm/r_gtm.o
+                               0x822f (size before relaxing)
+ .debug_str     0x0001349f       0x83 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+                                0x931 (size before relaxing)
+ .debug_str     0x00013522       0xcd ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+                               0x1bbb (size before relaxing)
+ .debug_str     0x000135ef       0x24 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+                                0x6bd (size before relaxing)
+ .debug_str     0x00013613       0x31 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+                                0x6ca (size before relaxing)
+ .debug_str     0x00013644      0xe2c ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+                               0x4af1 (size before relaxing)
+ .debug_str     0x00014470      0x203 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+                                0x910 (size before relaxing)
+ .debug_str     0x00014673       0x95 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+                                0x733 (size before relaxing)
+ .debug_str     0x00014708       0xab ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+                                0x74e (size before relaxing)
+ .debug_str     0x000147b3       0xd0 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+                                0x862 (size before relaxing)
+ .debug_str     0x00014883       0x79 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+                               0x1742 (size before relaxing)
+ .debug_str     0x000148fc       0x26 ./rzv/board/rzv2l_smarc/board_init.o
+                                0x6cf (size before relaxing)
+ .debug_str     0x00014922       0x35 ./rzv/board/rzv2l_smarc/board_leds.o
+                               0x1484 (size before relaxing)
+ .debug_str     0x00014957       0x41 ./rzv/board/rzv2l_smarc/pin_data.o
+                               0x14e1 (size before relaxing)
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 ./src/hal_entry.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000079       0x7a ./rzv_gen/common_data.o
+ .comment       0x00000079       0x7a ./rzv_gen/hal_data.o
+ .comment       0x00000079       0x7a ./rzv_gen/main.o
+ .comment       0x00000079       0x7a ./rzv_gen/vector_data.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/r_ioport/r_ioport.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/r_gtm/r_gtm.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .comment       0x00000079       0x7a ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .comment       0x00000079       0x7a ./rzv/board/rzv2l_smarc/board_init.o
+ .comment       0x00000079       0x7a ./rzv/board/rzv2l_smarc/board_leds.o
+ .comment       0x00000079       0x7a ./rzv/board/rzv2l_smarc/pin_data.o
+
+.ARM.attributes
+                0x00000000       0x34
+ .ARM.attributes
+                0x00000000       0x32 ./src/hal_entry.o
+ .ARM.attributes
+                0x00000032       0x32 ./rzv_gen/common_data.o
+ .ARM.attributes
+                0x00000064       0x32 ./rzv_gen/hal_data.o
+ .ARM.attributes
+                0x00000096       0x32 ./rzv_gen/main.o
+ .ARM.attributes
+                0x000000c8       0x36 ./rzv_gen/vector_data.o
+ .ARM.attributes
+                0x000000fe       0x32 ./rzv/fsp/src/r_ioport/r_ioport.o
+ .ARM.attributes
+                0x00000130       0x32 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .ARM.attributes
+                0x00000162       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .ARM.attributes
+                0x00000194       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .ARM.attributes
+                0x000001c6       0x36 ./rzv/fsp/src/bsp/mcu/all/bsp_io.o
+ .ARM.attributes
+                0x000001fc       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .ARM.attributes
+                0x0000022e       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .ARM.attributes
+                0x00000260       0x32 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .ARM.attributes
+                0x00000292       0x32 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .ARM.attributes
+                0x000002c4       0x32 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .ARM.attributes
+                0x000002f6       0x32 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .ARM.attributes
+                0x00000328       0x32 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .ARM.attributes
+                0x0000035a       0x32 ./rzv/board/rzv2l_smarc/board_init.o
+ .ARM.attributes
+                0x0000038c       0x36 ./rzv/board/rzv2l_smarc/board_leds.o
+ .ARM.attributes
+                0x000003c2       0x36 ./rzv/board/rzv2l_smarc/pin_data.o
+ .ARM.attributes
+                0x000003f8       0x32 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000042a       0x32 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
+
+.debug_frame    0x00000000      0x780
+ .debug_frame   0x00000000       0x60 ./src/hal_entry.o
+ .debug_frame   0x00000060       0x20 ./rzv_gen/common_data.o
+ .debug_frame   0x00000080       0x28 ./rzv_gen/hal_data.o
+ .debug_frame   0x000000a8       0x28 ./rzv_gen/main.o
+ .debug_frame   0x000000d0      0x28c ./rzv/fsp/src/r_ioport/r_ioport.o
+ .debug_frame   0x0000035c      0x180 ./rzv/fsp/src/r_gtm/r_gtm.o
+ .debug_frame   0x000004dc       0x60 ./rzv/fsp/src/bsp/mcu/all/bsp_clocks.o
+ .debug_frame   0x0000053c       0x40 ./rzv/fsp/src/bsp/mcu/all/bsp_common.o
+ .debug_frame   0x0000057c       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_irq.o
+ .debug_frame   0x0000059c       0x20 ./rzv/fsp/src/bsp/mcu/all/bsp_irqs.o
+ .debug_frame   0x000005bc       0x48 ./rzv/fsp/src/bsp/mcu/all/bsp_security.o
+ .debug_frame   0x00000604       0x48 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o
+ .debug_frame   0x0000064c       0x58 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/startups.o
+ .debug_frame   0x000006a4       0x3c ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o
+ .debug_frame   0x000006e0       0x38 ./rzv/fsp/src/bsp/cmsis/Device/RENESAS/Source/systems.o
+ .debug_frame   0x00000718       0x20 ./rzv/board/rzv2l_smarc/board_init.o
+ .debug_frame   0x00000738       0x28 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000760       0x20 c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/nofp\libg_nano.a(lib_a-memset.o)
